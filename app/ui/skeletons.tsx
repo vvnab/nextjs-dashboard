@@ -216,3 +216,11 @@ export function InvoicesTableSkeleton() {
     </div>
   );
 }
+
+export function CustomersTableSkeleton() {
+  return (
+    <div className="justify-center mt-6 flex h-60 flex-row items-center bg-gray-50">
+      <div>Loading...</div>
+    </div>
+  );
+}
